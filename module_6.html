@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px black solid;
+            
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Serial</th>
+            <th>name</th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>WOw</td>
+            <td>32</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>okka</td>
+            <td>33</td>
+            <td>10060  </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>szfwed</td>
+            <td>45</td>
+            <td>300000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>eda</td>
+            <td>66</td>
+            <td>35335</td>
+        </tr>
+    </table>
+   <form action="">
+    <p>Email:<input type="text"  name="log-in" placeholder="Enter Your Name/Email"></p>
+    <p>Password: <input type="password" name="log-in" placeholder="Enter password"></p>
+    <fieldset>
+        <legend>Select Food</legend>
+            <p>
+           <label for="vapa"> <input type="radio" name="foods" id="vapa">
+            Vapa </p></label>
+          <label for="Burger"> <p><input type="radio" name="foods" id="Burger">Burger</p></label>
+           <label for="Pizza"><p><input type="radio" name="foods" id="Pizza">Pizza
+           </p></label>
+          <label for="Pasta"> <p><input type="radio" name="foods" id="Pasta">Pasta</p></label>
+    
+        
+    </fieldset>
+    <fieldset>
+    <legend>Select Sub Items</legend>
+    <p><label for="Lacchi"><input type="checkbox" id="Lacchi" name="sub-item">Lacchi</label></p>
+    <p><label for="Cold_Coffee"><input type="checkbox" id="Cold_Coffee" name="sub-item">Cold Coffee</label></p>
+    <p><label for="coffe"><input type="checkbox" name="sub-item" id="coffe">Coffe</label></p>
+    
+    </fieldset>
+    <textarea name="others" id="other-item" cols="30" rows="10"></textarea>
+    <br>
+    <button type="submit">Submit </button>
+    <button type="reset">Reset</button>
+   </form>
+
+</body>
+</html>
